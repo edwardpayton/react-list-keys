@@ -1,8 +1,10 @@
 import '@testing-library/jest-dom/extend-expect';
-import { act, cleanup, renderHook } from '@testing-library/react-hooks';
+import { cleanup, renderHook } from '@testing-library/react-hooks';
 import useListKeys from '../src/useListKeys';
 
-describe('it', () => {
+test.todo('write full tests');
+
+describe('useListKeys', () => {
   let list: string[];
   let add: (a: string, b: number) => void;
   let remove: (a: number) => void;
